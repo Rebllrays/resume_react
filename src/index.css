@@ -1,13 +1,126 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background:#252422 !important; 
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background: #252422 !important;
+  font-family: 'Oswald', sans-serif !important;
+  font-size: 25px;
+}
+.btn {
+  background: #252422 !important;
+  color: aliceblue !important;
+}
+.container {
+  justify-content: flex-end !important;
+}
+.home_page {
+  /* color: aliceblue; */
+  display: flex;
+  margin: 50px;
+  color:#715e5e;
+  font-family: 'Oswald', sans-serif;
+}
+.content_title {
+  color:#f9cdcd;
+  font-weight: 700;
+  font-size: 60px;
+  /* margin: 50px; */
+}
+.content_left {
+  margin-top: 60px;
+}
+.content_left>p {
+  width: 80%;
+  /* margin-left: px; */
+}
+.content_left>button {
+  width: 10%;
+  border: 0;
+  border-radius: 2px;
+}
+.content_right>img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  background: #191919;
+  color: #e5e5e9;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+footer p {
+  padding: 45px;
+}
+
+/* .row {
+  width: 100% !important;
+} */
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid #f9cdcd !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px #fff !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid #fff !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+.skill {
+  color:#715e5e;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.content_contact {
+  font-family: 'Oswald', sans-serif;
+  color: #e5e5e9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content_contact > button {
+  border: 0;
+  border-radius: 2px;
+  width: 50%;
+  margin-top: 10px;
+  background: #715e5e;
+}
+.content_contact >input {
+  width: 50%;
+  margin-top: 8px;
+}
+.content_contact > ul{
+  background: #e5e5e9;
+  color: #252422;
+  width: 50%;
+  list-style-type: none;
+  border-radius: 2px;
+  text-align: center;
 }
